@@ -5,7 +5,7 @@
 window.WJ_CONFIG = {
   // "demo"：示範模式。可瀏覽、試讀，兌換與登入為模擬流程（重新整理就會重置）。
   // "live"：正式模式。需要先完成 Supabase 後端設定（見 README 第 3 節）。
-  MODE: "demo",
+  MODE: "live",
 
   // 蝦皮商品網址
   SHOPEE_URL: {
@@ -15,8 +15,8 @@ window.WJ_CONFIG = {
 
   // Supabase（正式模式才需要）。anon key 本來就是公開金鑰，可以放在這裡。
   // 絕對不要把 service_role key 放進這個檔案。
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+   SUPABASE_URL: "https://yjmsbzaalbyoyaodccug.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_Y7zYoqsHLwTXoPmMWl6xag_FxtZt57c",
 
   CONTACT_EMAIL: "",
   SOCIAL: { instagram: "", threads: "" }
